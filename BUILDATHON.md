@@ -77,3 +77,10 @@ Expected: all 4 tests pass. Exit code of the CLI reflects completeness (0 = comp
 - Two formats covered; a v3 later is one file, no core changes.
 - Summarization is rule-based, not LLM-based. Deterministic and fast, but doesn't paraphrase.
 - Next step: publish as `entire-agent-adapter` on the Entire marketplace and hook to `entire session` so an agent that runs through this adapter produces real checkpoints automatically.
+
+## Submission verified — 2026-09-06
+
+- All 4 tests pass: `node agents/entire-agent-adapter/test/run.mjs`
+- Curveball response initial commit: 2c75290
+- Graph context enabled via `entire graph init-agents`
+- Final checkpoint recorded via Entire hooks in this Claude Code session
