@@ -1,0 +1,4 @@
+{"type":"session_start","intent":"Migrate database schema to v3"}
+{"type":"user_prompt","text":"add the new columns and run the migration"}
+{"type":"assistant_message","final":false,"text":"adding columns..."}
+{"type":"tool_error","message":"migration lock held by another process"}

@@ -1,0 +1,8 @@
+{"type":"session_start","intent":"Add rate limiting to public API endpoints"}
+{"type":"user_prompt","text":"start with the token bucket in src/ratelimit.js"}
+{"type":"assistant_message","final":false,"text":"okay, drafting token bucket"}
+{"type":"tool_error","message":"Redis connection timed out in CI"}
+{"type":"todo","text":"Document RATE_LIMIT_RPS in README.md"}
+{"type":"todo","text":"Decide per-IP vs per-API-key limits"}
+{"type":"assistant_message","final":true,"text":"Implemented token bucket in src/ratelimit.js and wired into src/server.js. Burst-refill test still fails."}
+{"type":"session_stop"}

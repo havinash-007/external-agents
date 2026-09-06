@@ -1,0 +1,12 @@
+name: 'entire-agent-adapter'
+description: 'Convert a coding-agent JSONL transcript into an Entire-checkpoint-shaped summary.'
+inputs:
+  transcript:
+    description: 'Path to the agent transcript JSONL file'
+    required: true
+outputs:
+  summary_json:
+    description: 'The checkpoint-shaped summary as JSON'
+runs:
+  using: 'node20'
+  main: 'src/index.mjs'

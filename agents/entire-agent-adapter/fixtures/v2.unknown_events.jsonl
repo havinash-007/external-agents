@@ -1,0 +1,6 @@
+{"event_type":"lifecycle.start","payload":{"intent":"Refactor auth middleware"}}
+{"event_type":"message.user","payload":{"content":"break auth.js into modules"}}
+{"event_type":"telemetry.beacon","payload":{"latency_ms":42}}
+{"event_type":"experimental.thought_stream","payload":{"chunk":"considering options..."}}
+{"event_type":"message.assistant","payload":{"is_final":true,"content":"Split auth.js into token.js and session.js."}}
+{"event_type":"lifecycle.stop","payload":{}}
