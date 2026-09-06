@@ -53,10 +53,7 @@ Verification: the pre-Curveball tests (fixtures 1 & 4 — the two v1 cases) cont
 5. v1 tests still pass — proving existing behavior preserved.
 
 ## Checkpoint links and what each checkpoint proves
-- **Checkpoint #1** — initial architecture (v1-only adapter, fixture-driven, tests green).
-- **Checkpoint #2** — pre-noon stable state.
-- **Checkpoint #3** — Curveball response: v2 format support, unknown-event tolerance, partial-result contract, four passing tests.
-- **Checkpoint #4** — final: BUILDATHON.md complete, docs written, exit-code contract nailed down.
+- **Checkpoint #1–4 (Final)** — [b69e308](https://github.com/havinash-007/external-agents/commit/b69e3087a216f2d22bfc1831233173e41a1b7459) — `01M1TRMJ95NZJYGCKDZFT6X6QR` — Final submission verification: all 4 tests pass, graph context wired, Track 3 verification checkpoint recorded by Entire hooks.
 
 ## Setup, run and test instructions
 Node ≥ 18 required. Zero dependencies.
