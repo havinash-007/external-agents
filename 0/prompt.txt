@@ -1,0 +1,13 @@
+Verify the Track 3 submission. Do these steps in order:
+
+Run node agents/entire-agent-adapter/test/run.mjs and confirm all 4 tests pass. Report the output.
+Run entire graph init-agents --repo . to enable graph context in this repo.
+Append a new section to the bottom of BUILDATHON.md:
+## Submission verified — 2026-09-06
+
+- All 4 tests pass: `node agents/entire-agent-adapter/test/run.mjs`
+- Curveball response initial commit: 2c75290
+- Graph context enabled via `entire graph init-agents`
+- Final checkpoint recorded via Entire hooks in this Claude Code session
+Run git add BUILDATHON.md AGENTS.md CLAUDE.md .entire/graph-agent.md (whatever exists) and git commit -m "buildathon: final submission verification and graph agents wired".
+Do not push. Report the commit SHA.
