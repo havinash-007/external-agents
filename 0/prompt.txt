@@ -1,0 +1,43 @@
+Step 3 — After it commits, back in your regular terminal
+Open a new cmd/PowerShell window (don't kill the CLI):
+
+cd "C:\Users\Havinash Gangisetty\Downloads\external-agents"
+git log -1 --format=%B
+Look at the bottom for a line like:
+
+Entire-Checkpoint: 01ABCDEF...
+Copy that ID. That's your final checkpoint.
+
+Step 4 — Push
+git push
+Step 5 — Get final SHA
+git rev-parse HEAD
+
+---
+
+The rubric wants links to the required checkpoints. Get URLs to embed in BUILDATHON.md:
+
+cd "C:\Users\Havinash Gangisetty\Downloads\external-agents"
+entire checkpoint list
+
+You should see at least 2 recent entries — the final one (01M1TRMJ95N...) and possibly one from the first commit if that also triggered. Copy their IDs and their SHAs.
+
+Then form the links like:
+
+https://github.com/havinash-007/external-agents/commit/<sha> — the commit view will show the Entire-Checkpoint: trailer, which is what judges need to see.
+
+If time allows, paste those into BUILDATHON.md under "Checkpoint links and what each checkpoint proves" (that section already exists — just replace the placeholders with real URLs), commit, and push again.
+
+Sanity check before you submit
+
+Open your fork in a browser: https://github.com/havinash-007/external-agents
+
+Verify:
+
+✅ BUILDATHON.md is at the root
+✅ agents/entire-agent-adapter/ is present with README, src/, fixtures/, test/
+✅ Click the latest commit — you should see the Entire-Checkpoint: 01M1TRMJ95NZJYGCKDZFT6X6QR trailer at the bottom of the commit message
+
+If all three ✅, submit the form. You're done. 🚀
+
+Reply if the submission form asks for anything I haven't covered — Databricks, demo video, etc.
